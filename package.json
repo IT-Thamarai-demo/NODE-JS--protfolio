@@ -2,9 +2,9 @@
   "name": "registrationapp",
   "version": "1.0.0",
   "description": "",
-  "main": "indezx.js",
+  "main": "index.js", 
   "scripts": {
-    "start": "node indexz.js",
+    "start": "node index.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,7 +16,5 @@
     "express": "^4.19.2",
     "mongoose": "^8.4.3",
     "@vercel/node": "^2.3.0"
-   
   }
-
 }

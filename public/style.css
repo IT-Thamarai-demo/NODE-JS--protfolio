@@ -607,20 +607,25 @@ marquee
 
 }
 .blink {
-    animation: blinker 1.5s linear infinite;
-    color: rgb(0, 255, 123);
-    font-family: sans-serif;
+    font-size: 2em;
+    color: #007BFF;
+    font-weight: bold;
     text-align: center;
-    font-size: 30px;
-    text-transform: capitalize;
-
+     text-transform: uppercase;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f8ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-@keyframes blinker {
-    10% {
-        opacity: 0;
-      
-    }
-}
+/* Blinking animation */
+
+
+
 
 
